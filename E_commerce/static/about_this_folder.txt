@@ -1,0 +1,13 @@
+In this folder add the files which are for client to see/download(who uses the website)
+
+This files in this folder are publically available
+
+for example=> css, javascript, images, files that you want to share; you obviously don't want the client to see the python code
+
+basically this is the frontend folder
+
+DONT ADD ANY SENSITIVE FILES IN STATIC IT CAN BE HACKED EASILY HACKED
+
+
+open the chat 
+by clicking session chat
