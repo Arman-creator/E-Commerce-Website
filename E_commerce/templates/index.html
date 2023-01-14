@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="../static/index.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+  <script src="/E_commerce/static/index.js"></script>
+  <link rel="stylesheet" href="/E_commerce/static/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E Commercec</title>
 </head>
-
-w<body>
-    <script src="../static/index.js"></script>
-
-    <nav id="nav_bar">
-        <ul type="square">
-            <li> <a href="index.html"> Home </li>
-            <li> <a href="orders.html">Order</li>
-            <li> <a href="cart.html">cart</li>
-        </ul>
-    </nav>
-    <!-- we only have 3 files-> index, cart, orders -->
-    <!-- btw you can type python manage.py runserver in terminal to get live response (on saving the html file) -->
-    <!-- I am making my nav bar below this -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
+<body>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Products</a>
+        <div class="dropdown-content">
+          <a href="category.html?id=1">Category 1</a>
+          <a href="category.html?id=2">Category 2</a>
+          <a href="category.html?id=3">Category 3</a>
+          <a href="caregory.html?id=4">category 4</a>
+        </div>
+      </li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="right"><a href="cart.html">Cart</a>
+        <span class="cart-count" id="cart-count"></span>
+      </li>
+      <li class="search-container right">
+          <form id="search-form">
+            <input type="text" placeholder="Search..." id="search-input">
+            <button type="submit" id="search-submit">Go</button>
+          </form>
+      </li>
+    </ul>
+  </nav>  
 </body>
-
 </html>
